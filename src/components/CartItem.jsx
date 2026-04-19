@@ -91,7 +91,7 @@ const CartItem = ({ item }) => {
                 </h2>
 
                 <div className='flex justify-between  items-center  gap-5 '>
-                    <p className='text-lg font-semibold'>$ {item.price * item.quantity}</p>
+                    <p className='text-lg font-semibold'>₹ {item.price * item.quantity}</p>
 
                 </div>
                 <div className='flex items-center gap-3'>

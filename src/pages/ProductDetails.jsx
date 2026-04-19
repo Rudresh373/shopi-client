@@ -211,10 +211,10 @@ const ProductDetails = () => {
                                     {/* Price */}
                                     <div className="flex items-center flex-wrap  gap-4">
                                         <span className="text-4xl font-bold text-green-600">
-                                            ${product.price}
+                                            ₹{product.price}
                                         </span>
                                         <span className="text-lg text-gray-500 line-through">
-                                            ${(product.price * 1.2).toFixed(2)}
+                                            ₹{(product.price * 1.2).toFixed(2)}
                                         </span>
                                         <span className="bg-red-100 text-red-800 px-3 py-1 rounded-full text-sm font-medium">
                                             Save 20%

@@ -75,7 +75,7 @@ const Product = ({product}) => {
           {/* Price */}
           <div className="flex items-center justify-center space-x-2">
             <span className="text-2xl font-bold text-green-600">
-              ${product.price}
+              ₹{product.price}
             </span>
             <div className={`w-2 h-2 bg-green-500 rounded-full transition-all duration-300 ${
               isHovered ? 'animate-pulse' : ''
